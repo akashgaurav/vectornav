@@ -1,0 +1,4 @@
+<!--xml-->
+<launch>
+<node name="IMU" pkg="vectornav" type="vectornav" />
+</launch>

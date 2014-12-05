@@ -1,0 +1,17 @@
+<package>
+  <description brief="vectornav">
+
+     vectornav
+
+  </description>
+  <author>ravi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/vectornav</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+
+</package>
+
+

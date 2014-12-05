@@ -1,0 +1,8 @@
+<launch>
+<node name="link_laser" pkg="gen_tf" type="link_laser" />
+<node name="odometry" pkg="odom" type="odometry" />
+<node name="lidar" pkg="sick_tim3xx" type="sick_tim3xx" />
+<node name="roboteq" pkg="roboteq" type="roboteq" />
+<node name="IMU" pkg="vectornav" type="vectornav" />
+<node name="obsdata" pkg="caminput" type="maskregion" />
+</launch>
